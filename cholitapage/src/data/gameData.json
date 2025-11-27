@@ -1,0 +1,71 @@
+{
+  "game": {
+    "title": "Cholita Fighter",
+    "subtitle": "Un viaje de lucha a través de La Paz",
+    "description": "Acompaña a nuestra valiente cholita en un épico recorrido por los escenarios más emblemáticos de La Paz, Bolivia. Enfrenta oponentes únicos en combates al estilo clásico de peleas."
+  },
+  "team": [
+    {
+      "name": "María Condori",
+      "role": "Game Designer & Artist",
+      "avatar": "MC"
+    },
+    {
+      "name": "Carlos Mamani",
+      "role": "Lead Programmer",
+      "avatar": "CM"
+    },
+    {
+      "name": "Ana Quispe",
+      "role": "Story & Sound Design",
+      "avatar": "AQ"
+    },
+    {
+      "name": "Diego Apaza",
+      "role": "Level Designer",
+      "avatar": "DA"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "Plaza San Francisco",
+      "description": "Tu viaje comienza en el corazón histórico de La Paz. Las vendedoras del mercado se vuelven tus primeras rivales.",
+      "opponent": "La Vendedora Feroz",
+      "difficulty": "Fácil",
+      "background": "Calles empedradas con la iglesia colonial de fondo"
+    },
+    {
+      "id": 2,
+      "name": "Mercado de las Brujas",
+      "description": "Entre pociones y amuletos, enfrentas a una sabia yatiri con poderes místicos ancestrales.",
+      "opponent": "La Yatiri Poderosa",
+      "difficulty": "Medio",
+      "background": "Puestos llenos de hierbas, fetos de llama y artesanías"
+    },
+    {
+      "id": 3,
+      "name": "Teleférico Rojo",
+      "description": "La batalla se eleva a las alturas. Combate sobre las cabinas del teleférico con la ciudad de fondo.",
+      "opponent": "El Guardián del Cielo",
+      "difficulty": "Difícil",
+      "background": "Vista panorámica de La Paz desde las alturas"
+    },
+    {
+      "id": 4,
+      "name": "Valle de la Luna",
+      "description": "El enfrentamiento final en las formaciones rocosas lunares. La jefa final te espera.",
+      "opponent": "La Pachamama Guardiana",
+      "difficulty": "Experto",
+      "background": "Formaciones rocosas erosionadas bajo el cielo boliviano"
+    }
+  ],
+  "features": [
+    "Combos especiales inspirados en danzas folklóricas",
+    "4 niveles únicos ambientados en La Paz",
+    "Música andina con beats modernos",
+    "Personajes con vestimenta tradicional auténtica",
+    "Power-ups de hojas de coca y api",
+    "Modo historia y arcade"
+  ]
+}
