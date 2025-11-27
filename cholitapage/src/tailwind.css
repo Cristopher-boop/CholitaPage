@@ -1,9 +1,10 @@
+/* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Nueva sintaxis Tailwind v4 */
+@import "tailwindcss";
 
+/* ---- Tus capas personalizadas migradas ---- */
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -23,7 +24,8 @@
   }
 
   .glow-border {
-    box-shadow: 0 0 20px rgba(250, 204, 21, 0.3), inset 0 0 20px rgba(250, 204, 21, 0.1);
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.3),
+                inset 0 0 20px rgba(250, 204, 21, 0.1);
   }
 
   .shine-effect {
@@ -78,6 +80,7 @@
   }
 }
 
+/* Global reset */
 html {
   scroll-behavior: smooth;
 }
