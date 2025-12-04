@@ -46,7 +46,7 @@ export default function HomePage() {
                     </h2>
                     <p className="text-white text-lg leading-relaxed"
                        style={{ fontFamily: 'monospace' }}>
-                      Sigue a una valiente cholita a través de los escenarios más emblemáticos de La Paz. Enfrenta oponentes únicos, aprende combos especiales inspirados en danzas folklóricas y descubre la fuerza ancestral boliviana.
+                      Sigue a una valiente cholita a través de los escenarios más emblemáticos de La Paz. Enfrenta oponentes únicos y descubre la fuerza ancestral boliviana.
                     </p>
                   </div>
 
@@ -64,23 +64,27 @@ export default function HomePage() {
                       <Info className="w-5 h-5" strokeWidth={3} />
                       INFO
                     </Link>
+                    <Link to="/team"
+                          className="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-black px-8 py-4 text-lg border-4 border-white shadow-lg transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2"
+                          style={{ fontFamily: 'monospace' }}>
+                      <Info className="w-5 h-5" strokeWidth={3} />
+                      EQUIPO
+                    </Link>
                   </div>
                 </div>
 
                 <div className="relative">
-                  <div className="border-4 border-yellow-400 bg-gradient-to-br from-red-900 to-black p-1 shadow-2xl">
+                  
                     <div className="bg-black aspect-video flex items-center justify-center overflow-hidden group cursor-pointer">
-                      <div className="absolute inset-0 bg-gradient-to-br from-red-600 via-transparent to-yellow-600 opacity-20"></div>
+                      
 
-                      <div className="w-32 h-32 border-8 border-yellow-400 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-                        <Play className="w-20 h-20 text-yellow-400 fill-yellow-400" strokeWidth={1} />
-                      </div>
+                      
 
-                      <img src="https://images.pexels.com/photos/3587620/pexels-photo-3587620.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      <img src="../../assets/img/home.png"
                            alt="Cholita Fighter"
                            className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-60 transition-opacity duration-300" />
                     </div>
-                  </div>
+                  
 
                   <div className="absolute -bottom-4 -right-4 bg-yellow-400 border-4 border-white p-4 shadow-lg">
                     <p className="text-black font-black text-center"
@@ -100,12 +104,11 @@ export default function HomePage() {
                   ¡EXPLORA LOS ESCENARIOS ÉPICOS!
                 </p>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
                   {[
-                    { name: 'Plaza San Francisco', difficulty: 'FÁCIL' },
-                    { name: 'Mercado de Brujas', difficulty: 'MEDIO' },
-                    { name: 'Teleférico Rojo', difficulty: 'DIFÍCIL' },
-                    { name: 'Valle de la Luna', difficulty: 'EXPERTO' }
+                    { name: 'Mirador', difficulty: 'FÁCIL' },
+                    { name: 'Mina', difficulty: 'EXPERTO' },
+                    { name: 'Calles de La Paz', difficulty: 'MEDIO' },
                   ].map((level, i) => (
                     <div key={i} className="border-4 border-yellow-400 bg-gradient-to-br from-red-900 to-red-800 p-4">
                       <p className="text-yellow-300 font-black text-sm"

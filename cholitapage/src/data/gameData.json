@@ -6,66 +6,56 @@
   },
   "team": [
     {
-      "name": "María Condori",
-      "role": "Game Designer & Artist",
-      "avatar": "MC"
+      "name": "Adriana Ayllon",
+      "role": "Diseñador de juegos",
+      "avatar": "AA"
     },
     {
-      "name": "Carlos Mamani",
-      "role": "Lead Programmer",
-      "avatar": "CM"
+      "name": "Diego Quispe",
+      "role": "Jefe programador",
+      "avatar": "DQ"
     },
     {
-      "name": "Ana Quispe",
-      "role": "Story & Sound Design",
-      "avatar": "AQ"
+      "name": "Yerko Apo",
+      "role": "Narrador de historia y diseñador",
+      "avatar": "YA"
     },
     {
-      "name": "Diego Apaza",
-      "role": "Level Designer",
-      "avatar": "DA"
+      "name": "Cristopher Ayala",
+      "role": "Programador",
+      "avatar": "CA"
     }
   ],
   "levels": [
     {
       "id": 1,
-      "name": "Plaza San Francisco",
-      "description": "Tu viaje comienza en el corazón histórico de La Paz. Las vendedoras del mercado se vuelven tus primeras rivales.",
-      "opponent": "La Vendedora Feroz",
+      "name": "Mirador",
+      "description": "Tu viaje comienza en las vistas de La Paz",
+      "opponent": "Policía feroz",
       "difficulty": "Fácil",
-      "background": "Calles empedradas con la iglesia colonial de fondo"
+      "background": "Calles empedradas con vista a la cuidad"
     },
     {
       "id": 2,
-      "name": "Mercado de las Brujas",
-      "description": "Entre pociones y amuletos, enfrentas a una sabia yatiri con poderes místicos ancestrales.",
-      "opponent": "La Yatiri Poderosa",
-      "difficulty": "Medio",
-      "background": "Puestos llenos de hierbas, fetos de llama y artesanías"
+      "name": "Mina abandonada",
+      "description": "Entre la oscuridad y lo misterioso algo asecha.",
+      "opponent": "El tio de las minas",
+      "difficulty": "Experto",
+      "background": "Una mina oscura y misteriosa"
     },
     {
       "id": 3,
-      "name": "Teleférico Rojo",
-      "description": "La batalla se eleva a las alturas. Combate sobre las cabinas del teleférico con la ciudad de fondo.",
-      "opponent": "El Guardián del Cielo",
+      "name": "Calles de La Paz",
+      "description": "La batalla se transporta a la tipicas calles coloniales de La Paz.",
+      "opponent": "Cholita",
       "difficulty": "Difícil",
-      "background": "Vista panorámica de La Paz desde las alturas"
-    },
-    {
-      "id": 4,
-      "name": "Valle de la Luna",
-      "description": "El enfrentamiento final en las formaciones rocosas lunares. La jefa final te espera.",
-      "opponent": "La Pachamama Guardiana",
-      "difficulty": "Experto",
-      "background": "Formaciones rocosas erosionadas bajo el cielo boliviano"
+      "background": "Vista a las calles coloniales de La Paz"
     }
   ],
   "features": [
-    "Combos especiales inspirados en danzas folklóricas",
-    "4 niveles únicos ambientados en La Paz",
+    "3 niveles únicos ambientados en La Paz",
     "Música andina con beats modernos",
     "Personajes con vestimenta tradicional auténtica",
-    "Power-ups de hojas de coca y api",
-    "Modo historia y arcade"
+    "Modo historia"
   ]
 }

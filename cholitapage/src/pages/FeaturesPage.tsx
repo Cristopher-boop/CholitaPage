@@ -11,10 +11,11 @@ const featureIcons = [
 ];
 
 const screenshots = [
-  'https://images.pexels.com/photos/3587620/pexels-photo-3587620.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/6900329/pexels-photo-6900329.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/5621620/pexels-photo-5621620.jpeg?auto=compress&cs=tinysrgb&w=800'
+  '../../assets/img/vista1.png',
+  '../../assets/img/vista2.png',
+  '../../assets/img/vista3.png',
+  '../../assets/img/vista4.png',
+
 ];
 
 export default function FeaturesPage() {
@@ -123,10 +124,10 @@ export default function FeaturesPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { label: 'NIVELES', value: '4' },
-                { label: 'OPONENTES', value: '4' },
-                { label: 'MODOS', value: 'HISTORIA + ARCADE' },
-                { label: 'PLATAFORMAS', value: 'PC / CONSOLAS' }
+                { label: 'NIVELES', value: '3' },
+                { label: 'OPONENTES', value: '3' },
+                { label: 'MODOS', value: 'HISTORIA' },
+                { label: 'PLATAFORMAS', value: 'PC' }
               ].map((spec, i) => (
                 <div key={i} className="border-4 border-yellow-400 bg-black p-6 text-center transform hover:scale-105 transition-transform duration-200">
                   <p className="text-yellow-300 font-black text-sm mb-3"
